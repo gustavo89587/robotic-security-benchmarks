@@ -48,6 +48,36 @@ Languages: Python (Core Logic), Go (High-speed Telemetry), C++ (Physics Extensio
 
 ---
 
+# OKA-SEC: RL Sovereign Audit Framework
+## Powered by Vortex Engine v3.5 (Shadow Mode)
+
+> "Triage is dead. In an era of hallucinated 'slop' and autonomous agents, 
+> traditional vulnerability management is a ghost. If you are still reacting 
+> to logs, you have already lost the sovereignty of your infrastructure."
+
+### Overview
+This framework applies the **OKA-SEC Protocol** to Reinforcement Learning (RL) 
+environments (MuJoCo/PyTorch). It transitions defense from "Reactionary" 
+to "Intent-Based".
+
+### Core Doutrine
+1. **Gradient Sovereignty**: Every tensor update is audited for adversarial intent.
+2. **Shadow Mode**: Implementation of a parallel latent space to verify agent integrity.
+3. **Poisoning the Well**: Autonomous neutralization of reward-hacking through 
+dynamic physical environmental deception.
+
+### Architecture
+- `oka_sec_monitor.py`: Sovereign Intent Auditor.
+- `mujoco_shadow_env.py`: Physics-based Deception Engine.
+- `train_sovereign.py`: Root Admin Training Loop.
+
+### Usage
+This is not a tool for the masses. It is a research framework for those 
+who understand that **Intent-based defense is the next frontier.**
+
+---
+© 2026 Okamoto Security Labs. Made in Marília.
+
 ## 🤝 Community & Standards
 As an active contributor to the Coalition for Secure AI (CoSAI), this work follows the guidelines for Secure AI Design and runtime governance.
 
