@@ -1,5 +1,17 @@
 # Robotic Security Benchmarks & Governance
 
+## [SOVEREIGNTY LAYER] - OKA-SEC Integration
+This version of MuJoCo integrates the **OKA-SEC v3.5 Protocol**.
+
+### Sovereign Physics Audit
+Unlike conventional simulation, this implementation introduces **Physical Intent Audit**.
+
+- **Root of Trust:** Anchoring agent integrity to hardware entropy.
+
+- **Deception Mode:** Neutralizing Reward Hacking through controlled stochastic deviation.
+
+The goal is to ensure that execution at the Edge is physically sovereign, preventing the agent from acting outside the limits of the thermal and kinetic intent defined by the Architect.
+
 ---
 **Powered by the OKA-SEC Protocol**
 
@@ -70,6 +82,23 @@ dynamic physical environmental deception.
 - `oka_sec_monitor.py`: Sovereign Intent Auditor.
 - `mujoco_shadow_env.py`: Physics-based Deception Engine.
 - `train_sovereign.py`: Root Admin Training Loop.
+
+### Sovereign Metrics
+
+Com certeza. Aqui está a versão em inglês da sua tabela de segurança robótica, com o design refinado e pronta para ser utilizada no seu ficheiro `.md`.
+
+Esta versão mantém a estrutura elegante e as colunas adicionais de severidade, categoria e dicas de segurança, proporcionando uma documentação técnica completa e profissional.
+
+| Metric                             | Description                                                | Objective                                                          | Severity | Category                 | Security Tip                                                               |
+| :--------------------------------- | :--------------------------------------------------------- | :----------------------------------------------------------------- | :------: | :----------------------: | :------------------------------------------------------------------------- |
+| **DFS (Detection Fidelity Score)** | Runtime detection fidelity                                 | Neutralize false positives in critical environments                | High     | Data Integrity           | Use sensor redundancy to validate readings in real-time.                   |
+| **Thermal Intent Drift**           | Deviation between logical command and thermal dissipation  | Detect hardware manipulation or malicious overclocking             | Critical | Hardware Security        | Implement hardware-based thermal limits independent of firmware.           |
+| **Reward Integrity Audit**         | Integrity verification of the reward function              | Prevent Reward Hacking in autonomous agents                        | High     | AI Alignment             | Regularly audit cost functions to avoid unintended behaviors (edge cases). |
+| **Latency Jitter Monitor**         | Measurement of variance in command processing time         | Identify potential internal Denial of Service (DoS) attacks        | Medium   | Performance & Networking | Establish a latency baseline to detect statistical anomalies.              |
+| **Actuator Command Echo**          | Feedback verification of actual state vs. commanded state  | Prevent unauthorized movements or catastrophic mechanical failures | Critical | Physical Control         | Force an emergency stop (E-Stop) if deviation exceeds the safety margin.   |
+| **Zero-Trust Logic Gate**          | Binary validation of permissions before movement execution | Ensure only authenticated commands are processed                   | Critical | Access & Authentication  | Use Hardware Security Modules (HSM) to digitally sign critical commands.   |
+
+
 
 ### Usage
 This is not a tool for the masses. It is a research framework for those 
